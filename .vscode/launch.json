@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Tableau de détection (3 solveurs)",
+      "request": "launch",
+      "mainClass": "vv.outils.TableauDetection",
+      "vmArgs": "-Dstdout.encoding=UTF-8"
+    }
+  ]
+}

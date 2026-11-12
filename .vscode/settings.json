@@ -1,0 +1,18 @@
+{
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "files.encoding": "utf8",
+  "java.test.config": [
+    {
+      "name": "Solveur robuste",
+      "vmArgs": ["-Dsolveur.classe=equation.SolveurRobuste", "-Dstdout.encoding=UTF-8"]
+    },
+    {
+      "name": "Solveur naïf (formule du lycée)",
+      "vmArgs": ["-Dsolveur.classe=equation.SolveurNaif", "-Dstdout.encoding=UTF-8"]
+    },
+    {
+      "name": "Solveur stable du cours (slide 54)",
+      "vmArgs": ["-Dsolveur.classe=equation.SolveurStableCours", "-Dstdout.encoding=UTF-8"]
+    }
+  ]
+}
